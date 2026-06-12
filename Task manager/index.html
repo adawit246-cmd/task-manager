@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Master</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <h1>Task Master</h1>
+
+        <div class="input-group">
+            <input type="text" id="taskinput" placeholder="Add a new task">
+        </div>
+
+        <div class="extra-inputs">
+            <select id="taskType">
+                <option value="Work">Work</option>
+                <option value="Personal">Personal</option>
+                <option value="Study">Study</option>
+                <option value="Shopping">Shopping</option>
+            </select>
+
+            <select id="urgencyLevel">
+                <option value="High">High Priority</option>
+                <option value="Medium">Medium Priority</option>
+                <option value="Low">Low Priority</option>
+            </select>
+        </div>
+
+        <button id="addbtn">Add Task</button>
+
+        <ul id="tasklist"></ul>
+    </div>
+    <button id="themeToggle" class="theme-btn">🌙 Dark Mode</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
